@@ -1,0 +1,17 @@
+explosive shot -> when the bullet hits something it creates a large shockwave, maybe 128x128
+	-projectile hits-> projectile killed-> play animation of explosion, kill after 4 frames/images
+
+-invulnerability
+	-create circle around player position, add a layer over it that has decent opacity
+	
+-Homoculus
+	-orb by player, shoots in same direction as player 
+
+-Necromancer
+	-kill enemy stands up and shoots at nearest enemy
+
+-Mirror image
+	-> spawn copies of the player, tagged as friendly so their projectiles dont hurt player
+	-> their projectiles do no damage
+	-> enemies will target them as well as the player, but prefer to target clones when active
+	-> clones can take 3 hits, clones then explode into 256x256 causing damage
